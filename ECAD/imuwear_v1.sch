@@ -1,0 +1,205 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:DataStorage
+LIBS:Microprocessors
+LIBS:MiscellaneousDevices
+LIBS:RF_OEM_Parts
+LIBS:Sensors
+LIBS:TransistorParts
+EELAYER 27 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date "20 apr 2014"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MPU_9150 U?
+U 1 1 53532ED5
+P 5800 3850
+F 0 "U?" H 5800 3900 60  0000 C CNN
+F 1 "MPU_9150" H 5800 3800 60  0000 C CNN
+F 2 "~" H 5800 3850 60  0000 C CNN
+F 3 "~" H 5800 3850 60  0000 C CNN
+	1    5800 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C1
+U 1 1 53532F9E
+P 6750 4900
+F 0 "C1" H 6750 5000 40  0000 L CNN
+F 1 "0.1uF" H 6756 4815 40  0000 L CNN
+F 2 "~" H 6788 4750 30  0000 C CNN
+F 3 "~" H 6750 4900 60  0000 C CNN
+	1    6750 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 53532FAD
+P 7500 4850
+F 0 "C?" H 7500 4950 40  0000 L CNN
+F 1 "C" H 7506 4765 40  0000 L CNN
+F 2 "~" H 7538 4700 30  0000 C CNN
+F 3 "~" H 7500 4850 60  0000 C CNN
+	1    7500 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 53532FBC
+P 7800 4850
+F 0 "C?" H 7800 4950 40  0000 L CNN
+F 1 "C" H 7806 4765 40  0000 L CNN
+F 2 "~" H 7838 4700 30  0000 C CNN
+F 3 "~" H 7800 4850 60  0000 C CNN
+	1    7800 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 53532FCB
+P 8050 4850
+F 0 "C?" H 8050 4950 40  0000 L CNN
+F 1 "C" H 8056 4765 40  0000 L CNN
+F 2 "~" H 8088 4700 30  0000 C CNN
+F 3 "~" H 8050 4850 60  0000 C CNN
+	1    8050 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 53533027
+P 7150 2800
+F 0 "R?" V 7230 2800 40  0000 C CNN
+F 1 "R" V 7157 2801 40  0000 C CNN
+F 2 "~" V 7080 2800 30  0000 C CNN
+F 3 "~" H 7150 2800 30  0000 C CNN
+	1    7150 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 53533036
+P 7400 2800
+F 0 "R?" V 7480 2800 40  0000 C CNN
+F 1 "R" V 7407 2801 40  0000 C CNN
+F 2 "~" V 7330 2800 30  0000 C CNN
+F 3 "~" H 7400 2800 30  0000 C CNN
+	1    7400 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 53533064
+P 6400 2900
+F 0 "#PWR?" H 6400 2900 30  0001 C CNN
+F 1 "GND" H 6400 2830 30  0001 C CNN
+F 2 "" H 6400 2900 60  0000 C CNN
+F 3 "" H 6400 2900 60  0000 C CNN
+	1    6400 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 53533073
+P 7450 3300
+F 0 "#PWR?" H 7450 3300 30  0001 C CNN
+F 1 "GND" H 7450 3230 30  0001 C CNN
+F 2 "" H 7450 3300 60  0000 C CNN
+F 3 "" H 7450 3300 60  0000 C CNN
+	1    7450 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 53533082
+P 5800 4950
+F 0 "#PWR?" H 5800 4950 30  0001 C CNN
+F 1 "GND" H 5800 4880 30  0001 C CNN
+F 2 "" H 5800 4950 60  0000 C CNN
+F 3 "" H 5800 4950 60  0000 C CNN
+	1    5800 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C2
+U 1 1 5353310C
+P 6000 2750
+F 0 "C2" H 6000 2850 40  0000 L CNN
+F 1 "0.1uF" H 6006 2665 40  0000 L CNN
+F 2 "~" H 6038 2600 30  0000 C CNN
+F 3 "~" H 6000 2750 60  0000 C CNN
+	1    6000 2750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_6 P?
+U 1 1 53533292
+P 8150 3850
+F 0 "P?" V 8100 3850 60  0000 C CNN
+F 1 "CONN_6" V 8200 3850 60  0000 C CNN
+F 2 "" H 8150 3850 60  0000 C CNN
+F 3 "" H 8150 3850 60  0000 C CNN
+	1    8150 3850
+	1    0    0    -1  
+$EndComp
+Text Label 7550 3600 2    60   ~ 0
+VCC
+Wire Wire Line
+	5700 2650 5700 3150
+Text Label 5700 2650 1    60   ~ 0
+VCC
+Text Label 5800 2650 1    60   ~ 0
+VCC
+Wire Wire Line
+	7550 3600 7800 3600
+Wire Wire Line
+	5800 2650 5800 3150
+Connection ~ 5800 2750
+Text Label 5900 3000 0    60   ~ 0
+VCC
+Wire Wire Line
+	5900 3000 5900 3150
+Wire Wire Line
+	6200 2750 6400 2750
+Wire Wire Line
+	6400 2750 6400 2900
+$EndSCHEMATC
