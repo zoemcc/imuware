@@ -1,11 +1,6 @@
-update=4/19/2014 7:18:14 PM
+update=4/21/2014 6:59:41 PM
 version=1
-last_client=eeschema
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
+last_client=cvpcb
 [pcbnew]
 version=1
 LastNetListRead=
@@ -26,7 +21,6 @@ DrawSegmentWidth=0.200000000000
 BoardOutlineThickness=0.100000000000
 ModuleOutlineThickness=0.150000000000
 [pcbnew/libraries]
-LibDir=
 LibName1=sockets
 LibName2=connect
 LibName3=discret
@@ -43,6 +37,9 @@ LibName13=led
 LibName14=dip_sockets
 LibName15=pga_sockets
 LibName16=valves
+LibName17=Footprints
+LibName18=myParts2
+LibDir=C:/Users/Colin/Documents/GitHub/imuware/KiCad-Libraries;C:/Users/Colin/Documents/GitHub/imuware/ECAD/Modules
 [general]
 version=1
 [eeschema]
@@ -90,3 +87,8 @@ LibName33=MiscellaneousDevices
 LibName34=RF_OEM_Parts
 LibName35=Sensors
 LibName36=TransistorParts
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms

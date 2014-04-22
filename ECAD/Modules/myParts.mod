@@ -1,0 +1,62 @@
+PCBNEW-LibModule-V1  4/21/2014 6:46:46 PM
+# encoding utf-8
+Units mm
+$INDEX
+Connector_1x6_SMD
+$EndINDEX
+$MODULE Connector_1x6_SMD
+Po 0 0 0 15 5355C9BE 00000000 ~~
+Li Connector_1x6_SMD
+Sc 0
+AR 
+Op 0 0 0
+T0 -3.556 0 1 1 900 0.15 N V 21 N "Connector_1x6_SMD"
+T1 0.254 -5.334 1 1 0 0.15 N V 21 N "VAL**"
+DS -2.032 -4.826 2.032 -4.826 0.15 21
+DS 2.032 -4.826 2.032 4.826 0.15 21
+DS 2.032 4.826 -2.032 4.826 0.15 21
+DS -2.032 4.826 -2.032 -4.826 0.15 21
+$PAD
+Sh "1" R 3 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 -3.81
+$EndPAD
+$PAD
+Sh "2" R 3 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 -2.286
+$EndPAD
+$PAD
+Sh "3" R 3 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 -0.762
+$EndPAD
+$PAD
+Sh "4" R 3 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 0.762
+$EndPAD
+$PAD
+Sh "5" R 3 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 2.286
+$EndPAD
+$PAD
+Sh "6" R 3 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 3.81
+$EndPAD
+$EndMODULE Connector_1x6_SMD
+$EndLIBRARY
