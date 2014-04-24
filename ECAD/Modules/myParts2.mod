@@ -1,8 +1,9 @@
-PCBNEW-LibModule-V1  4/21/2014 7:58:30 PM
+PCBNEW-LibModule-V1  4/23/2014 6:15:59 PM
 # encoding utf-8
 Units mm
 $INDEX
 Connector_1x6_SMD
+MPU9150_SMALL_KEEPOUT
 SIL-6-MINIMUM
 $EndINDEX
 $MODULE Connector_1x6_SMD
@@ -60,6 +61,218 @@ Ne 0 ""
 Po 0 3.81
 $EndPAD
 $EndMODULE Connector_1x6_SMD
+$MODULE MPU9150_SMALL_KEEPOUT
+Po 0 0 0 15 535865AD 00000000 ~~
+Li MPU9150_SMALL_KEEPOUT
+Sc 0
+AR 
+Op 0 0 0
+T0 0 3.4 1 1 0 0.2 N V 21 N "MPU9150"
+T1 0 -3.2 1 1 0 0.2 N I 21 N "VAL**"
+DC -1 -1 -1 -1.2 0.2 21
+DS -2 -2 2 -2 0.1 21
+DS 2 -2 2 2 0.1 21
+DS 2 2 -2 2 0.1 21
+DS -2 2 -2 -2 0.1 21
+$PAD
+Sh "1" R 0.85 0.35 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.975 -1.25
+.LocalClearance 0.0762
+$EndPAD
+$PAD
+Sh "2" R 0.85 0.35 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.975 -0.75
+.LocalClearance 0.0762
+$EndPAD
+$PAD
+Sh "3" R 0.85 0.35 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.975 -0.25
+.LocalClearance 0.0762
+$EndPAD
+$PAD
+Sh "4" R 0.85 0.35 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.975 0.25
+.LocalClearance 0.0762
+$EndPAD
+$PAD
+Sh "5" R 0.85 0.35 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.975 0.75
+.LocalClearance 0.0762
+$EndPAD
+$PAD
+Sh "6" R 0.85 0.35 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.975 1.25
+.LocalClearance 0.0762
+$EndPAD
+$PAD
+Sh "13" R 0.85 0.35 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.975 1.25
+.LocalClearance 0.0762
+$EndPAD
+$PAD
+Sh "14" R 0.85 0.35 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.975 0.75
+.LocalClearance 0.0762
+$EndPAD
+$PAD
+Sh "15" R 0.85 0.35 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.975 0.25
+.LocalClearance 0.0762
+$EndPAD
+$PAD
+Sh "16" R 0.85 0.35 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.975 -0.25
+.LocalClearance 0.0762
+$EndPAD
+$PAD
+Sh "17" R 0.85 0.35 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.975 -0.75
+.LocalClearance 0.0762
+$EndPAD
+$PAD
+Sh "18" R 0.85 0.35 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.975 -1.25
+.LocalClearance 0.0762
+$EndPAD
+$PAD
+Sh "7" R 0.35 0.85 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.25 1.975
+.LocalClearance 0.0762
+$EndPAD
+$PAD
+Sh "8" R 0.35 0.85 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.75 1.975
+.LocalClearance 0.0762
+$EndPAD
+$PAD
+Sh "9" R 0.35 0.85 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.25 1.975
+.LocalClearance 0.0762
+$EndPAD
+$PAD
+Sh "10" R 0.35 0.85 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.25 1.975
+.LocalClearance 0.0762
+$EndPAD
+$PAD
+Sh "11" R 0.35 0.85 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.75 1.975
+.LocalClearance 0.0762
+$EndPAD
+$PAD
+Sh "12" R 0.35 0.85 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.25 1.975
+.LocalClearance 0.0762
+$EndPAD
+$PAD
+Sh "19" R 0.35 0.85 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.25 -1.975
+.LocalClearance 0.0762
+$EndPAD
+$PAD
+Sh "20" R 0.35 0.85 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.75 -1.975
+.LocalClearance 0.0762
+$EndPAD
+$PAD
+Sh "21" R 0.35 0.85 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.25 -1.975
+.LocalClearance 0.0762
+$EndPAD
+$PAD
+Sh "22" R 0.35 0.85 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.25 -1.975
+.LocalClearance 0.0762
+$EndPAD
+$PAD
+Sh "23" R 0.35 0.85 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.75 -1.975
+.LocalClearance 0.0762
+$EndPAD
+$PAD
+Sh "24" R 0.35 0.85 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.25 -1.975
+.LocalClearance 0.0762
+$EndPAD
+$SHAPE3D
+Na "3D/MPU9150.wrl"
+Sc 0.3937 0.3937 0.3937
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE MPU9150_SMALL_KEEPOUT
 $MODULE SIL-6-MINIMUM
 Po 0 0 0 15 5355DABD 00000000 ~~
 Li SIL-6-MINIMUM
