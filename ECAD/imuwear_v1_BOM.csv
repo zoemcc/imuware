@@ -1,0 +1,15 @@
+ref	value	footprint
+C1	0.1uF	~
+C2	0.1uF	~
+C3	2.2nF	~
+C4	10nF	~
+D1	LED	~
+GS1	GS3	
+GS2	GS3	
+GS3	GS3	
+P1	CONN_6	
+P2	CONN_6	
+R1	10K	~
+R2	10K	~
+R3	33	~
+U1	MPU_9150	~
