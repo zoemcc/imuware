@@ -1,4 +1,4 @@
-(kicad_pcb (version 3) (host pcbnew "(2013-jul-07)-stable")
+(kicad_pcb (version 3) (host pcbnew "(2013-07-07 BZR 4022)-stable")
 
   (general
     (links 39)
@@ -14,12 +14,12 @@
 
   (page A3)
   (layers
-    (15 F.Cu signal)
-    (0 B.Cu signal)
+    (15 F.Cu signal hide)
+    (0 B.Cu signal hide)
     (16 B.Adhes user hide)
     (17 F.Adhes user hide)
     (18 B.Paste user hide)
-    (19 F.Paste user hide)
+    (19 F.Paste user)
     (20 B.SilkS user)
     (21 F.SilkS user)
     (22 B.Mask user)
@@ -60,11 +60,12 @@
     (pad_size 0.85 0.35)
     (pad_drill 0)
     (pad_to_mask_clearance 0.0127)
+    (pad_to_paste_clearance -0.0635)
     (aux_axis_origin 0 0)
     (visible_elements 7FFFFFFF)
     (pcbplotparams
       (layerselection 524288)
-      (usegerberextensions true)
+      (usegerberextensions false)
       (excludeedgelayer true)
       (linewidth 0.020000)
       (plotframeref false)
